@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinique Travel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="logo"><a href="#">Destinique</a></div>
+        <div class="hamburger">&#9776;</div> <!-- Menu Hamburger -->
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang Destinique</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#galeri">Dokumentasi</a></li>
+            <li><a href="#package">Our Package</a></li>
+            <li><a href="#kontak">Kontak Kami</a></li>
+        </ul>
+    </nav>
+    
+ 
+    
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Destinique Travel</h1>
+        <p>Jelajahi destinasi impianmu dengan kenyamanan bersama Destinique Travel</p>
+        <button class="cta-button" onclick="window.location.href='#services'">Lihat Layanan Kami</button>
+    </header>
+
+    <!-- Beranda Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <!-- Banner Slider (Kiri) -->
+            <div class="slider">
+                <div class="slide active">
+                    <img src="asset/img/banner3.jpg" alt="Banner 1">
+                </div>
+                <div class="slide">
+                    <img src="asset/img/banner4.jpg" alt="Banner 2">
+                </div>
+                <div class="slide">
+                    <img src="asset/img/banner5.jpg" alt="Banner 3">
+                </div>
+            </div>
+    
+            <!-- Contact Us Form (Kanan) -->
+            <div class="contact-form">
+                <h2>Call Us</h2>
+                <form id="contactForm" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tentang Section --> 
+    <section id="about">
+        <div class="about-container">
+            <h2>Tentang Destinique</h2>
+            <p>Destinique adalah platform perjalanan yang menyediakan berbagai pilihan paket wisata ke destinasi terbaik, mulai dari gunung Bromo yang menakjubkan hingga pulau-pulau eksotis di Indonesia. Bergabunglah dengan kami untuk menjelajahi dunia yang penuh petualangan dan pengalaman tak terlupakan.</p>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+
+    <section id="services" class="services">
+        <div class="service">
+            <img src="asset/img/paketwisata.jpg" alt="Paket Wisata">
+            <h3>Paket Wisata</h3>
+            <p>Jelajahi destinasi wisata menarik dengan berbagai pilihan paket yang bisa disesuaikan dengan keinginan Anda. Ayo, temukan pengalaman liburan yang tak terlupakan!</p>
+        </div>
+        <div class="service">
+            <img src="asset/img/labuanbajo.jpg" alt="Open Trip">
+            <h3>Open Trip</h3>
+            <p>Siapkan diri untuk petualangan seru bersama teman baru! Pesan open trip ke destinasi impian Anda dengan harga yang terjangkau.</p>
+        </div>
+        <div class="service">
+            <img src="asset/img/umroh.jpg" alt="Umroh">
+            <h3>Umroh</h3>
+            <p>Rencanakan perjalanan ibadah Umroh Anda dengan fasilitas terbaik. Kami menyediakan paket lengkap yang membuat perjalanan Anda lebih mudah dan nyaman.</p>
+        </div>
+        <div class="service">
+            <img src="asset/img/rental.jpg" alt="Transportasi">
+            <h3>Transportasi</h3>
+            <p>Butuh transportasi nyaman untuk perjalanan Anda? Temukan berbagai pilihan kendaraan yang siap mengantarkan Anda ke tujuan dengan aman dan tepat waktu.</p>
+        </div>
+    </section>
+    
+
+    <!-- Package Section -->
+    <section id="package" class="package">
+        <div class="container">
+            <h2>Our Travel Packages</h2>
+            <div class="package-list">
+                <div class="package-item">
+                    <img src="asset/img/banner5.jpg" alt="Open Trip to Bandung">
+                    <h3>Open Trip to Bandung</h3>
+                    <p>Jelajahi kota Bandung yang sejuk bersama teman-teman perjalanan Anda! Nikmati udara segar dan pemandangan alam yang menakjubkan.</p>
+                </div>
+                <div class="package-item">
+                    <img src="asset/img/labuanbajo.jpg" alt="Open Trip to Labuan Bajo">
+                    <h3>Open Trip to Labuan Bajo</h3>
+                    <p>Rasakan keindahan pulau-pulau eksotis di Labuan Bajo. Nikmati pantai yang masih asri dan air laut yang jernih.</p>
+                </div>
+                <div class="package-item">
+                    <img src="asset/img/banner3.jpg" alt="Open Trip to Bromo">
+                    <h3>Open Trip to Bromo</h3>
+                    <p>Dapatkan pengalaman tak terlupakan mendaki Gunung Bromo dan saksikan matahari terbit dari puncaknya yang spektakuler.</p>
+                </div>
+                <div class="package-item">
+                    <img src="asset/img/thailand.jpg" alt="Open Trip to Thailand">
+                    <h3>Open Trip to Thailand</h3>
+                    <p>Rasakan keseruan budaya yang vibrant dan pantai-pantai yang indah di Thailand. Mulai dari Bangkok hingga Phuket!</p>
+                </div>
+                <div class="package-item">
+                    <img src="asset/img/umroh.jpg" alt="Umroh Packages">
+                    <h3>Umroh Packages</h3>
+                    <p>Berangkat untuk perjalanan spiritual Anda dengan paket Umroh kami. Nikmati kenyamanan perjalanan, tur yang terarah, dan pelayanan lengkap.</p>
+                </div>
+                <div class="package-item">
+                    <img src="asset/img/bali.jpg" alt="Open Trip to Bali">
+                    <h3>Open Trip to Bali</h3>
+                    <p>Temukan keindahan pantai-pantai terkenal, pura-pura yang memukau, dan resort mewah di Bali dengan trip yang telah disusun secara matang.</p>
+                </div>
+                <div class="package-item">
+                    <img src="asset/img/borobudur.jpg" alt="Open Trip to Yogyakarta">
+                    <h3>Open Trip to Yogyakarta</h3>
+                    <p>Jelajahi warisan budaya Yogyakarta, dari candi-candi yang megah hingga pantai-pantai yang mempesona.</p>
+                </div>
+                <div class="package-item">
+                    <img src="asset/img/paris.jpg" alt="Tour Packages Paris">
+                    <h3>Open Trip to Karangasem</h3>
+                    <p>Kunjungi Karangasem di Bali yang tenang dan indah, dengan pantai-pantai yang menakjubkan dan pura-pura yang damai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Dokumentasi Section -->
+    <section id="galeri" class="galeri">
+        <div class="container">
+            <h2>Galeri Dokumentasi</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn" onclick="filterGallery('all')">Semua</button>
+                <button class="filter-btn" onclick="filterGallery('bandung')">Bandung</button>
+                <button class="filter-btn" onclick="filterGallery('labuanbajo')">Labuan Bajo</button>
+                <button class="filter-btn" onclick="filterGallery('bromo')">Bromo</button>
+                <button class="filter-btn" onclick="filterGallery('bali')">Bali</button>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item bandung">
+                    <img src="asset/img/banner5.jpg" alt="Bandung">
+                    <p>Open Trip to Bandung</p>
+                </div>
+                <div class="gallery-item labuanbajo">
+                    <img src="asset/img/labuanbajo.jpg" alt="Labuan Bajo">
+                    <p>Open Trip to Labuan Bajo</p>
+                </div>
+                <div class="gallery-item bromo">
+                    <img src="asset/img/banner3.jpg" alt="Bromo">
+                    <p>Open Trip to Bromo</p>
+                </div>
+                <div class="gallery-item bali">
+                    <img src="asset/img/bali.jpg" alt="Bali">
+                    <p>Open Trip to Bali</p>
+                </div>
+                <div class="gallery-item bandung">
+                    <img src="asset/img/lembang.jpg" alt="Bandung">
+                    <p>Open Trip to Bandung</p>
+                </div>
+                <div class="gallery-item labuanbajo">
+                    <img src="asset/img/labuanbajo2.jpg" alt="Labuan Bajo">
+                    <p>Open Trip to Labuan Bajo</p>
+                </div>
+                <div class="gallery-item bromo">
+                    <img src="asset/img/bromo2.jpg" alt="Bromo">
+                    <p>Open Trip to Bromo</p>
+                </div>
+                <div class="gallery-item bali">
+                    <img src="asset/img/bali2.jpg" alt="Bali">
+                    <p>Open Trip to Bali</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Footer Section -->
+    <footer id="kontak">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Kontak Kami -->
+                <div class="footer-contact">
+                    <h2>Kontak Kami</h2>
+                    <form id="ourcountact" action="#" method="POST">
+                        <input type="text" id="name2" name="name" placeholder="Nama" required>
+                        <input type="email" id="email2" name="email" placeholder="Email" required>
+                        <textarea id="message2" name="message2" placeholder="Pesan" required></textarea>
+                        <button class="footer-button" type="submit">Kirim</button>
+                    </form>
+                </div>
+    
+                <!-- Informasi Destinique -->
+                <div class="footer-info">
+                    <h2>Informasi Destinique</h2>
+                    <ul>
+                        <li>Jl. Raya No. 123, Jakarta</li>
+                        <li>(021) 123456789</li>
+                        <li>info@destinique.com</li>
+                        <li>
+                            <a href="https://facebook.com" target="_blank">Facebook</a>
+                            <a href="https://instagram.com" target="_blank">Instagram</a>
+                            <a href="https://twitter.com" target="_blank">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <br>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Destinique Travel. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+    
+
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
